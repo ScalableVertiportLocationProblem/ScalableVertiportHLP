@@ -10,9 +10,9 @@ This repository includes
      - requests.csv, containing 185,077 trip records of Beijing. Each record in the dataset includes the longitude and latitude of the origination and destination of the trip.
      - Base.png, which is the non-hubable area of Beijing, including the area inside the Second Ring Road (filled with gray), leisure area (filled with green), districts and protected infrastructures (filled with red), and water area (filled with blue).
      
-   - Folder cw, which contains the cost(distance) matrix and demand matrix. Given $n_b$, the whole area is divided as $n_b \times n_b$ grid cells, and the corresponding cost matrix is saved in "cij%d.csv"%n_b while demand matrix in "wij%d.csv"%n_b.
+   - Folder cw, which contains the cost(distance) matrix and demand matrix. Given $$n_b$$, the whole area is divided as $$n_b \times n_b$$ grid cells, and the corresponding cost matrix is saved in "cij%d.csv"%n_b while demand matrix in "wij%d.csv"%n_b.
    
-   - Folder non_hub_area, which contains the non-hubable area of Beijing. Given $n_b$, the whole area is divided as $n_b \times n_b$ grid cells, and the corresponding index of the non-hubable area is saved in "non_hub%d.csv"%n_b.
+   - Folder non_hub_area, which contains the non-hubable area of Beijing. Given $$n_b$$, the whole area is divided as $$n_b \times n_b$$ grid cells, and the corresponding index of the non-hubable area is saved in "non_hub%d.csv"%n_b.
    
    - codes used for generating cost matrix, demand matrix, and list of non-huable area (Requirements: NumPy, pandas, PIL, skimage)
      - data_process_cw.py, which generates cost matrix and demand matrix. Before running, make sure there are requests.csv and folder named cw in the same directory.
