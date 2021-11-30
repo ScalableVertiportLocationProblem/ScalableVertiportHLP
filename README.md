@@ -1,4 +1,6 @@
 The data and results in this repository are a snapshot of the data and results that were used in the research reported on in the paper Scalable Vertiport Hub Location Selection for Air Taxi Operations in a Metropolitan Region by Chen et al.
+The paper is online now!
+Check out this link https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2021.1109 for more information.
 
 ## Content
 
